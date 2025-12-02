@@ -127,7 +127,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="iks oks 1.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayerO.cpp" />
+    <ClCompile Include="PlayerX.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayerO.h" />
+    <ClInclude Include="PlayerX.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
